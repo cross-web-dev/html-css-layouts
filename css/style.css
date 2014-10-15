@@ -38,18 +38,37 @@ header, footer{
     text-align: center;
 }
 
+/*Grid Style*/
 .col-container{
     width: 100%;
 }
+
+/*Colum2 Styel*/
 .col-2{
     background-color: yellow;
-    margin: 10rem 0;
+    margin: 4rem 0;
+    padding: 1rem;
 }
 
 @media screen and (min-width: 600px){
     .col-2{
         float: left;
         width: 50%;
+        padding: 2rem;
+    }
+}
+
+/*Colum3 Styel*/
+.col-3{
+    background-color: orange;
+    margin: 4rem 0;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 600px){
+    .col-3{
+        float: left;
+        width: 33.33%;
         padding: 2rem;
     }
 }
