@@ -51,10 +51,14 @@ header, footer{
 }
 
 @media screen and (min-width: 600px){
+    /* 47 + 47 = 94% so remaining width is 6%*/
     .col-2{
         float: left;
-        width: 50%;
+        width: 47%;
         padding: 2rem;
+    }
+    .col-2:first-child{
+        margin-left: 0;
     }
 }
 
@@ -66,9 +70,14 @@ header, footer{
 }
 
 @media screen and (min-width: 600px){
+    /* 29.33 + 29.33 +29.33 = 87.99 %, margin left is 12.11 %*/
     .col-3{
         float: left;
-        width: 33.33%;
-        padding: 2rem;
+        width: 29.33%;
+        margin-left: 6%;
+
+    }
+    .col-3:first-child{
+        margin-left: 0%;
     }
 }
