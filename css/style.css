@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 .clearfix:after {
     content: ".";
     display: block;
@@ -26,7 +30,11 @@ header, footer{
     text-align: center;
 }
 
+.col-container{
+    width: 100%;
+}
 .col-2{
+    background-color: yellow;
     margin: 10rem 0;
 }
 
@@ -34,5 +42,6 @@ header, footer{
     .col-2{
         float: left;
         width: 50%;
+        padding: 2rem;
     }
 }
