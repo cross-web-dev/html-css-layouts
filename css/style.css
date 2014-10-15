@@ -81,3 +81,23 @@ header, footer{
         margin-left: 0%;
     }
 }
+
+/*Colum4 Styel*/
+.col-4{
+    background-color: green;
+    margin: 4rem 0;
+    padding: 1rem;
+}
+
+@media screen and (min-width: 600px){
+    /* 20.5 + 20.5 +20.5 +20.5  = 82 %, margin left is 18 %*/
+    .col-4{
+        float: left;
+        width: 20.5%;
+        margin-left: 6%;
+
+    }
+    .col-4:first-child{
+        margin-left: 0%;
+    }
+}
